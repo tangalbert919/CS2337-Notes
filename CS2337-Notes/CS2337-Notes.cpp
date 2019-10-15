@@ -4,16 +4,10 @@
 #include <cassert>
 #include <utility>
 
+#include "ChapterSeven.h"
 #include "ChapterNine.h"
 #include "ChapterEleven.h"
 #include "ChapterThirteen.h"
-
-// Chapter 8: This is a namespace.
-namespace random {
-	int N = 1000;
-	double I = 23.37;
-	void printResult();
-}
 
 // Chapter 13 (maybe): Exception
 void functionException() {
@@ -77,6 +71,8 @@ int main()
 	typedef classes cards;
 	std::string geek = "help";
 	
+	random::printResult();
+
 	// Chapter 9
 	// A struct is a definition, not a declaration. By default, all members of a struct are public.
 	struct meep {

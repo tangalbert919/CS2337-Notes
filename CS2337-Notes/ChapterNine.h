@@ -10,7 +10,7 @@ public:
 	void printMe();
 	chapterNine();
 	chapterNine(int i);
-	// This is a destructor. When an object of this class goes out of scope, this is fired.
+	// This is a destructor. When an object of this class goes out of scope, this is fired to destroy the object.
 	~chapterNine();
 	int machine = 37;
 // These are protected methods and variables. Public or protected level inheritance is required to inhreit these.
