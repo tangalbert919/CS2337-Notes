@@ -5,7 +5,7 @@
 #include <iostream>
 
 void chapterEleven::printMe() {
-	chapterNine::printMe();
+	chapterTen::printMe();
 }
 
 chapterEleven::chapterEleven() {
@@ -13,7 +13,7 @@ chapterEleven::chapterEleven() {
 }
 
 // This is a constructor calling its base constructor.
-chapterEleven::chapterEleven(int i, int j) : chapterNine::chapterNine(i) {
+chapterEleven::chapterEleven(int i, int j) : chapterTen::chapterTen(i) {
 
 }
 

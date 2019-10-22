@@ -4,11 +4,11 @@
 #ifndef CHAPTERELEVEN_H
 #define CHAPTERELEVEN_H
 
-#include "ChapterNine.h"
+#include "ChapterTen.h"
 
 // This is a class inheriting another class. It cannot access chapterNine's private members.
 // All public variables from the base class are initialized when an object of this class is instantiated.
-class chapterEleven : public chapterNine {
+class chapterEleven : public chapterTen {
 public:
 	void printMe();
 	chapterEleven();

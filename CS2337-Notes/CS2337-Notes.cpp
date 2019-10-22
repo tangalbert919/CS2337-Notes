@@ -6,6 +6,7 @@
 
 #include "ChapterSeven.h"
 #include "ChapterNine.h"
+#include "ChapterTen.h"
 #include "ChapterEleven.h"
 #include "ChapterThirteen.h"
 
@@ -82,13 +83,18 @@ int main()
 	// To access members of a struct, use the member access operator (.).
 	machine.cs = 23.37;
 	machine.robot = 0;
+	printStruct(machine);
 	
+	// Chapter 10
 	// This is how you instantiate a class variable. The next line invokes the default constructor.
-	chapterNine reboot;
+	chapterTen reboot;
 	i = reboot.machine;
+	// This is how you can use a static function.
+	chapterTen::staticPrint();
 	// This is how you instantiate a class variable with a non-default constructor.
-	chapterNine shutdown(i);
+	chapterTen shutdown(i);
 	std::cout << shutdown.machine << std::endl;
+	// Chapter 11
 	chapterEleven startup;
 	startup.printMe();
 	std::cout << startup.machine << std::endl;

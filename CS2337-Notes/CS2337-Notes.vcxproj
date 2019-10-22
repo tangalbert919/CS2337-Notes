@@ -154,12 +154,14 @@
     <ClInclude Include="ChapterSeven.h" />
     <ClInclude Include="ChapterEleven.h" />
     <ClInclude Include="ChapterNine.h" />
+    <ClInclude Include="ChapterTen.h" />
     <ClInclude Include="ChapterThirteen.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ChapterSeven.cpp" />
     <ClCompile Include="ChapterEleven.cpp" />
     <ClCompile Include="ChapterNine.cpp" />
+    <ClCompile Include="ChapterTen.cpp" />
     <ClCompile Include="ChapterThirteen.cpp" />
     <ClCompile Include="CS2337-Notes.cpp" />
   </ItemGroup>

@@ -1,31 +1,15 @@
-// Chapter Nine Header file
-// Contains function prototypes. The definitions are in ChapterNine.cpp.
+// Chapter 9 Header file
+// Contains structs.
 
 #ifndef CHAPTERNINE_H
 #define CHAPTERNINE_H
-
-// This is a class. Unless otherwise specified, class members (functions and variables) are private by default.
-class chapterNine {
-public:
-	void printMe();
-	chapterNine();
-	chapterNine(int i);
-	// This is a destructor. When an object of this class goes out of scope, this is fired to destroy the object.
-	~chapterNine();
-	int machine = 37;
-// These are protected methods and variables. Public or protected level inheritance is required to inhreit these.
-protected:
-	void testMe();
-// These are private methods and variables. Only methods in this class can access them. They cannot be inherited.
-private:
-	int troll;
-	double fire;
-	bool isThisWorking();
-};
 
 // A struct is a definition, not a declaration. By default, all members of a struct are public.
 struct meep {
 	int robot;
 	double cs;
 };
+
+// Struct variables can be passed as a parameter by value or reference.
+void printStruct(meep i);
 #endif // CHAPTERNINE_H
