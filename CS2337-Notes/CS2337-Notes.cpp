@@ -50,37 +50,36 @@ int main()
 	assert(i > j);
 	// This function will terminate if the expression inside the parentheses evaluates to false.
 
-	// Chapter 7
-	// Enumeration - A simple data type defined by the programmer.
-	// The values listed in an enumeration will always go from least to greatest.
+	// Chapter 7: Enumerations
+	// This is an enumeration. It is a data type defined by the user. It contains a reference to something. See if you can spot it.
 	enum classes {archer, lancer, rider, caster, saber, assassin, berserker};
-	// In this enumeration, the archer is the lowest, and the berserker is the highest.
-	classes illya = caster;
-	classes miyu = rider;
+	// You can define variables using this enumeration.
+	classes illya = berserker;
 	// This next line is illegal because "1" is not in the Enumeration "classes".
 	//classes rin = 1;
 	// Arithmetic operations are not allowed, followed by "++" and "--". Instead, you must use the cast operator:
 	illya = static_cast<classes>(illya + 1);
 	// In a for loop, it would look something like this:
-	for (classes shirou = archer; shirou <= berserker; shirou = static_cast<classes>(shirou + 1)) {
-		std::cout << "NERD" << std::endl;
+	for (classes shirou = lancer; shirou <= berserker; shirou = static_cast<classes>(shirou + 1)) {
+		std::cout << "Have you figured out the reference yet?" << std::endl;
 	}
+	// End of reference
+
+	// You can also define variables of an enumeration type when you define an enumeration type:
+	enum people {yuuki, lumina, infinitychan, jenny, weeby} friends;
 	// This is an anonymous enumeration.
-	enum {nerd, idiot} human;
+	enum {nerd, idiot} typesOfPeople;
 	// A typedef statement is used to create an alias to an existing data type. Here, I will create an alias called "cards".
 	typedef classes cards;
-	std::string geek = "help";
-	
+
+	// Refer to ChapterSeven.h and ChapterSeven.cpp on namespaces.
 	random::printResult();
+	std::cout << random::N << std::endl;
 
 	// Chapter 9
-	// A struct is a definition, not a declaration. By default, all members of a struct are public.
-	struct meep {
-		int robot;
-		double cs;
-	};
-	// This is how you use a struct.
+	// This is how you use a struct. The struct called "meep" is defined in "ChapterNine.h".
 	meep machine;
+	// To access members of a struct, use the member access operator (.).
 	machine.cs = 23.37;
 	machine.robot = 0;
 	

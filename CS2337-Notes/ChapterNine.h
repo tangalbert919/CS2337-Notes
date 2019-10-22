@@ -23,4 +23,9 @@ private:
 	bool isThisWorking();
 };
 
+// A struct is a definition, not a declaration. By default, all members of a struct are public.
+struct meep {
+	int robot;
+	double cs;
+};
 #endif // CHAPTERNINE_H
