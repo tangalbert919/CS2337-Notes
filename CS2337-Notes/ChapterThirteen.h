@@ -1,4 +1,4 @@
-// Chapter Thirteen header file
+// Chapter 13 header file
 
 #ifndef CHAPTERTHIRTEEN_H
 #define CHAPTERTHIRTEEN_H

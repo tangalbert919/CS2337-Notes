@@ -1,4 +1,4 @@
-// Chapter Seven source file.
+// Chapter 7 source file.
 
 #include "ChapterSeven.h"
 #include <iostream>

@@ -1,4 +1,4 @@
-// Chapter Seven header file
+// Chapter 7 header file
 // This file contains namespaces and more function prototypes.
 
 #ifndef CHAPTERSEVEN_H

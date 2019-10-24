@@ -1,4 +1,4 @@
-// Chapter Eleven header file
+// Chapter 11 header file
 // Still contains function prototypes. Definitions still in ChapterEleven.cpp
 
 #ifndef CHAPTERELEVEN_H

@@ -1,4 +1,4 @@
-// Chapter Thirteen source file
+// Chapter 13 source file
 
 #include "ChapterThirteen.h"
 
